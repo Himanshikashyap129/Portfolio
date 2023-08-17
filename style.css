@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:'Times New Roman', Times, serif;
+}
+body{
+    color: rgb(180, 170, 170);
+  
+}
+.webdeveloper{
+    display: inline;
+    font-size: 30px;
+   
+
+}
+@keyframes colorChange{
+    /* 0% {color: rgb(212, 208, 216);} */
+    50% {color: #66FCF1}
+    100% {color: rgb(230, 222, 236);}
+}
+#webing{
+    font-size: 30px;
+    color: #45A29E;
+   animation: colorChange 3s infinite;
+
+    
+}
+/* .second{
+    max-width: 80vw;
+    margin: auto;
+    background-color: blue;
+
+
+} */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #282828;
+    margin: 0 0;
+  
+}
+.logo{
+    position: relative;
+    font-size:30px;
+    color: #66FCF1;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 20px;
+    color:#66FCF1;
+    text-decoration: none;
+    /* font-weight: bold; */
+    margin-left: 35px;
+    transition: .2s;
+    height: 50px;
+    padding: 10px 0 0 0;
+   
+
+    
+    
+}
+
+.navbar a:hover{
+    color: rgb(250, 249, 253);
+    font-size: 23px;
+    font-weight: bold;
+    
+    
+
+}
+.paragraph{
+    padding: 15px 0 0 0;
+}
+
+.content{
+    font-size: 15px;
+    font-weight:700;
+    margin: 25px 0;
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+    
+    
+}
+#iam{
+    font-size: 20px;
+}
+.image{
+    height: 300px;
+    float: right;
+    margin: 10px;
+    width: 45%;
+    height: 45%;
+    padding: 30px;
+}
+
+.port{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+
+
+
+
